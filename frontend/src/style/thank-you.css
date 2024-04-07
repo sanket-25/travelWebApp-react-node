@@ -1,0 +1,26 @@
+
+
+.thank_you span i {
+    font-size: 4rem;
+    color: green;
+}
+
+.thank_you h1{
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.btn-primary-no-underline {
+    text-decoration: none !important;
+}
+
+.btn-round {
+    padding: 0.75rem 1.5rem; 
+    border-radius: 20px; /* Adjust the border-radius as needed */
+}
+
+.btn-primary-white {
+    color: white !important;
+}
+
+

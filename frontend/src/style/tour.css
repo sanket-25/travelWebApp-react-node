@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  
+.pagination span {
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color); /* Fixed the typo in variable name */
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .pagination .active_page {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  
